@@ -1,5 +1,10 @@
 # algebra
 硬件技术团队编程基础作业
+## 实现思路
+
+## 结果图片
+
+
 ## 课件资料 | Reference
 * [课程PPT](https://tannin-1316822731.cos.ap-nanjing.myqcloud.com/0701%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80.pdf)
 * [VSCode的C/C++环境配置教程](https://www.bilibili.com/video/BV1UZ421e7ty/?share_source=copy_web&vd_source=d82c2ec75577b6834f9f580f066180c1)
