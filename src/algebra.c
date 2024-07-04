@@ -13,13 +13,29 @@ Matrix create_matrix(int row, int col)
 Matrix add_matrix(Matrix a, Matrix b)
 {
     // ToDo
-    return create_matrix(0, 0);
+    Matrix m;
+    for (int i = 0; i < a.rows; i++)
+        for (int j = 0; j < a.cols; j++)
+        {
+           m.data[i][j]=a.data[i][j]+ b.data[i][j];
+        }
+    m.cols=a.cols;
+    m.rows=a.rows;
+    return m;
 }
 
 Matrix sub_matrix(Matrix a, Matrix b)
 {
     // ToDo
-    return create_matrix(0, 0);
+    Matrix m;
+    for (int i = 0; i < a.rows; i++)
+        for (int j = 0; j < a.cols; j++)
+        {
+           m.data[i][j]=a.data[i][j]- b.data[i][j];
+        }
+    m.cols=a.cols;
+    m.rows=a.rows;
+    return m;
 }
 
 Matrix mul_matrix(Matrix a, Matrix b)
